@@ -15,3 +15,9 @@
 
 - `/CLI`: This directory contains the solutions for the CLI part of the project.
   - `READ_ME.txt`: A text file within the CLI folder providing descriptions and explanations of the solutions found therein.
+
+### Datasets
+As I indicated in gitignore files, we used mainly below datasets in this project.
+* lighter_authors.json
+* lighter_books.json
+* list.json
