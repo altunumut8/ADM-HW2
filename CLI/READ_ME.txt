@@ -1,0 +1,5 @@
+For finding the solution for the CLI question, we used a JSON processor, named ‘“jq”, it’s a powerful tool which can do queries on JSON so fast, first we extracted the key-values of the data that are valuable for us: id, title, works and books count.
+Then we used “map” command to iterate throgh the “works”, which is an array in each object to extract the total books count for each object.
+Then we had to sort the data, but the problem was as we stored the extracted data in a variable, when we wanted to echo it, we had it as a string, so we recieved errors for doing sorting operation on it. We tried making a json out of it but again for calling the same thing happened.
+As we serched for the problem, and asked chatGPT for debugging, found out that we can use the output of the extracting total count query as the input of the sort query with -r and -s, so we did all the code in one line and extracted firsr top 5 results of the decreasing sorted query.
+We used LLM for debugging but it was not possible to enhance the code and make it more robust as we asked chatGPT, because the code was already efficient
