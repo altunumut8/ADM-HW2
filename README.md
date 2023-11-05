@@ -3,8 +3,8 @@
 
 ## Contents
 
-main.ipynb
-CLI/.
+* main.ipynb
+* CLI/.
 
 
 ### Jupyter Notebooks
